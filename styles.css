@@ -59,6 +59,19 @@ section{
         font-weight: 900;
      }
     }
+    .whoweare{
+        margin-top: 2.9em;
+        padding: 0.625em;
+
+
+        .tree{
+            height: 4.25em;
+            width: auto;
+        }
+        p{
+            
+        }
+    }
 }
 .video-section{
     border: none;
