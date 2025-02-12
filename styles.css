@@ -13,6 +13,8 @@
 
     .logo{
         width: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
         height: 8.25em;
         padding-top: 0.825em;
     }
@@ -36,6 +38,28 @@
     }
 }
 
+section{
+    
+    .hero{
+     background-image: url("/image/wonderful.JPG");
+     background-color: rgba(186, 250, 190, 0.6);
+     background-blend-mode: lighten;
+     background-size: cover;
+     height: 18.90em;
+     margin-top: 2.9em;
+
+     .hero-text{
+        display: grid;
+        justify-content: flex-start;
+        align-items: baseline;
+        padding-left: 0.938em;
+        padding-top: 5.0em;
+        margin-bottom: auto;
+        font-size: 1.2em;
+        font-weight: 900;
+     }
+    }
+}
 .video-section{
     border: none;
     margin-top: 1.825em;
