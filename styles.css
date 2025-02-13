@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Sofia", sans-serif;
+    font-family: "Vollkorn", sans-serif;
 }
 
 .navigation{
@@ -26,15 +26,20 @@
         text-decoration: none;
         font-weight: bold;
         }
+        a:hover{
+            color: green;
+        }
     }
     .join{
         border: none;
         border-radius: 1.563em;
+        font-weight: 800;
         width: 100%;
         height: 2.5em;
         margin-top: 1.563em;
         background-color: rgb(128, 187, 132);
         cursor: pointer;
+
 
         a{
             text-decoration: none;
@@ -44,6 +49,109 @@
     }
 }
 
+
+@media only screen and (max-width: 1023px)and (min-width: 768px) {
+    
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.725em;
+        
+    
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.900em;
+
+        li{
+            list-style: none;
+            font-size: 1.225em;
+        }
+    }
+    .logo{
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 8.25em;
+        padding-top: 0.825em;
+    }
+    
+    .join{
+        border: none;
+        border-radius: 0.563em;
+        font-weight: 800;
+        width: 100%;
+        padding: 0.702em;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.205em;
+        height: 2.5em;
+        margin-top: 1.163em;
+        background-color: rgb(128, 187, 132);
+        cursor: pointer;
+
+        a{
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+    }
+    }
+}
+
+@media only screen and (max-width: 2540px)and (min-width: 1024px) {
+    
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.725em;
+        
+    
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.900em;
+
+        li{
+            list-style: none;
+            font-size: 1.999em;
+        }
+    }
+    .logo{
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 8.25em;
+        padding-top: 0.825em;
+    }
+    
+    .join{
+        border: none;
+        border-radius: 0.563em;
+        font-weight: 800;
+        font-size: 1.200em;
+        width: 100%;
+        padding: 0.702em;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.205em;
+        height: 2.5em;
+        margin-top: 1.163em;
+        background-color: rgb(128, 187, 132);
+        cursor: pointer;
+
+        a{
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+    }
+    }
+}
 section{
     
     .hero{
@@ -51,34 +159,70 @@ section{
      background-color: rgba(186, 250, 190, 0.6);
      background-blend-mode: lighten;
      background-size: cover;
-     height: 18.90em;
      margin-top: 2.9em;
+     height: 18.0em;
 
      .hero-text{
         display: grid;
         justify-content: flex-start;
         align-items: baseline;
         padding-left: 0.938em;
-        padding-top: 5.0em;
+        padding-top: 3.100em;
+        line-height: 1.906em;
         margin-bottom: auto;
-        font-size: 1.2em;
+        font-size: 1.20em;
         font-weight: 900;
      }
     }
     .whoweare{
         margin-top: 2.9em;
         padding: 0.625em;
+        line-height: 1.905em;
+        font-size: 1.200em;
 
 
         .tree{
             height: 4.25em;
             width: auto;
         }
+    }
+}
+/*Hero section responsiveness*/
+@media only screen and (max-width: 1023px) and (min-width: 640px) {
+    .hero{
+        padding-top: 1.90em;
+        font-size: 1.2em;
+        margin-top: 0.9em;
+        width: 100%;
+        height: 100vh;
+    }
+    .hero-text{
+        line-height: 2.006em;
+        
+    }
+}
+@media only screen and (max-width: 2550px) and (min-width: 1024px) {
+    .hero{
+        padding-top: 1.600em;
+        font-size: 2em;
+        margin-top: 0.9em;
+        width: 100%;
+        height: 100vh;
+    }
+    .hero-text{
+        line-height: 2.006em;
+    }
+    .whoweare{
+        margin-top: 2.9em;
+        padding: 0.625em;
+        line-height: 1.905em;
+        font-size: 2em;
 
     }
 }
 .impact{
     padding: 0.625em;
+    
 
     .iimg{
         width: 100%;
@@ -91,6 +235,9 @@ section{
             border-radius: 1.563em;
             width: 100%;
             height: 2.5em;
+            display: grid;
+            justify-content: center;
+            align-items: center;
             margin-top: 1.563em;
             background-color: rgb(128, 187, 132);
             cursor: pointer;
@@ -102,19 +249,130 @@ section{
             }
         }
 }
-.brands{
+/*who we are session responsiveness*/
+@media only screen and (max-width: 1023px) and (min-width: 640px) {
+   .whoweare{
     
+    p{
+        font-size: 1.400em;
+        line-height: 2.006em;
+     }
+   }
+}
+@media only screen and (max-width: 2445px) and (min-width: 1024px) {
+    .whoweare{
+        h1{
+            font-size: 1.990em;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+     p{
+        font-size: 1.700em;
+        line-height: 2.006em;
+     }
+    }
+ }
+/*impact and partner responsivesness*/
+@media only screen and (max-width: 1023px) and (min-width: 640px) {
+    .impact{
+     line-height: 2.006em;
+     font-size: 1.900em;
+    }
+    .partner{
+        height: 1.0em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ }
+ @media only screen and (max-width: 2450px) and (min-width: 1024px) {
+    .impact{
+     line-height: 2.006em;
+     font-size: 1.900em;
 
+     .iimg{
+        height: auto;
+     }
+    }
+    .partner{
+        height: 1.0em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ }
+ /*brands responsivesness*/
+ @media only screen and (max-width: 1023px) and (min-width: 640px) {
+    .brands{
+
+        .bra{
+            font-size: 1.900em;
+            margin-bottom: 1em;
+        }
+    }
+ }
+ @media only screen and (max-width: 2550px) and (min-width: 1024px) {
+    .brands{
+
+        .bra{
+            font-size: 2.900em;
+            margin-bottom: 1em;
+        }
+    }
+ }
+
+.brands{
+    padding: 0.625em;
+
+    .bra{
+        text-align: center;
+        margin-top: 2.0em;
+    }
+    .brand-logo{
+        display: flex;
+        justify-content: space-around;
+        
+    }
     .brand{
         width: 10%;
     }
 }
+/*stories and video responsiveness*/
+@media only screen and (max-width: 1023px) and (min-width: 640px) {
+    .stories{
+
+        .story{
+            font-size: 1.990em;
+            margin: 1.800em 0 1.400em 0;
+        }
+    }
+    .video-section{
+        
+        .video{
+            width: 100%;
+        }
+    }
+ }
+ @media only screen and (max-width: 2550px) and (min-width: 1024px) {
+    .stories{
+
+        .story{
+            font-size: 2.999em;
+            margin: 1.800em 0 1.400em 0;
+        }
+    }
+    .video-section{
+        
+        .video{
+            width: 100%;
+        }
+    }
+ }
 .stories{
 
     h3{
         margin-top: 1.0em;
         text-align: center;
-        
     }
 
     .video-section{
@@ -122,6 +380,51 @@ section{
         margin-top: 1.825em;
         display: flex;
         justify-content: center;
+
+        .video{
+            width: 100%;
+        }
     }
 }
 
+.footer{
+    display: flex;
+    justify-content: space-around;
+    
+    .img{
+        margin-top: 4em;
+        width: 7%;
+        padding: 0.625em;
+    }
+}
+.foot{
+    background-color: rgb(128, 187, 132);
+    padding: 1em;
+    height: 100%;
+    margin-top: 5em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    a{
+        text-decoration: none;
+        color: black;
+        padding-bottom: 0.325em;
+    }
+}
+@media only screen and (max-width: 768px)and (min-width: 320px) {
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        
+        .img{
+            margin-top: 2em;
+            width: 15%;
+            padding: 0.625em;
+        }
+    }
+    .foot{
+        margin-top: 3em;
+    }
+}
