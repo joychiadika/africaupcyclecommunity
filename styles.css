@@ -159,6 +159,7 @@ section{
      background-color: rgba(186, 250, 190, 0.6);
      background-blend-mode: lighten;
      background-size: cover;
+     box-shadow: 20px 10px 8px 10px #a9bbb5;
      margin-top: 2.9em;
      height: 18.0em;
 
@@ -285,7 +286,7 @@ section{
         align-items: center;
     }
  }
- @media only screen and (max-width: 2450px) and (min-width: 1024px) {
+ @media only screen and (max-width: 2550px) and (min-width: 1024px) {
     .impact{
      line-height: 2.006em;
      font-size: 1.900em;
@@ -389,19 +390,45 @@ section{
 
 .footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
-    .img{
-        margin-top: 4em;
-        width: 7%;
+    .fa-brands{
+        width: 100%;
+        margin-top: 2em;
+        font-size: 2em;
         padding: 0.625em;
+        cursor: pointer;
     }
+    .fa-facebook{
+        color: #1877F2;
+    }
+    .fa-square-instagram{
+        color: transparent;
+        background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+    .fa-square-x-twitter{
+        color: #1DA1F2;
+    }
+    .fa-youtube{
+        color: #CD201F;
+    }
+    
+}
+.email{
+    margin-top: 3em;
+    text-align: center;
+    font-size: 1em;
 }
 .foot{
     background-color: rgb(128, 187, 132);
     padding: 1em;
     height: 100%;
-    margin-top: 5em;
+    margin-top: 3em;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -413,6 +440,28 @@ section{
         padding-bottom: 0.325em;
     }
 }
+/*Footer big screen responsiveness*/
+@media only screen and (max-width: 2550px)and (min-width: 1024px) {
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    
+    .fa-brands{
+        margin-top: 1em;
+        font-size: 4em;
+        padding: 0.625em;
+        cursor: pointer;
+    }
+   
+}
+
+.email{
+    margin-top: 0.900em;
+    text-align: center;
+    font-size: 2em;
+}
+}
 @media only screen and (max-width: 768px)and (min-width: 320px) {
     .footer{
         display: flex;
@@ -423,6 +472,16 @@ section{
             width: 15%;
             padding: 0.625em;
         }
+    }
+    .foot{
+        margin-top: 3em;
+    }
+}
+@media only screen and (max-width: 2550px)and (min-width: 1024px) {
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        
     }
     .foot{
         margin-top: 3em;
