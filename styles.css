@@ -48,7 +48,104 @@
         }
     }
 }
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) { 
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.725em;
+        
+    
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.900em;
 
+        li{
+            list-style: none;
+            font-size: 1.225em;
+        }
+    }
+    .logo{
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 8.25em;
+        padding-top: 0.825em;
+    }
+    
+    .join{
+        border: none;
+        border-radius: 0.563em;
+        font-weight: 800;
+        width: 100%;
+        padding: 0.702em;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.205em;
+        height: 2.5em;
+        margin-top: 1.163em;
+        background-color: rgb(128, 187, 132);
+        cursor: pointer;
+
+        a{
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+    }
+}
+}
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) { 
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.725em;
+        
+    
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.900em;
+
+        li{
+            list-style: none;
+            font-size: 1.225em;
+        }
+    }
+    .logo{
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 8.25em;
+        padding-top: 0.825em;
+    }
+    
+    .join{
+        border: none;
+        border-radius: 0.563em;
+        font-weight: 800;
+        width: 100%;
+        padding: 0.702em;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.205em;
+        height: 2.5em;
+        margin-top: 1.163em;
+        background-color: rgb(128, 187, 132);
+        cursor: pointer;
+
+        a{
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+    }
+    }
+}
 
 @media only screen and (max-device-width: 1023px)and (min-width: 768px) {
     
