@@ -13,6 +13,7 @@
 
     .logo{
         width: 100%;
+        height: auto;
         background-size: 100%;
         background-repeat: no-repeat;
         height: 8.25em;
