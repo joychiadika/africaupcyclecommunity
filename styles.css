@@ -112,6 +112,7 @@
         gap: 0.400em;
 
         li{
+            display: flex;
             list-style: none;
             font-size: 0.725em;
         }
