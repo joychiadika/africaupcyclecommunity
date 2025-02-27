@@ -100,7 +100,7 @@
 @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) { 
     .navigation{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         padding: 0.725em;
         
@@ -109,7 +109,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 0.700em;
+        gap: 0.400em;
 
         li{
             list-style: none;
@@ -117,7 +117,7 @@
         }
     }
     .logo{
-        width: 50%;
+        width: 70%;
         background-repeat: no-repeat;
         height: 8.25em;
         padding-top: 0.825em;
