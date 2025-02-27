@@ -115,12 +115,12 @@
         li{
             display: flex;
             list-style: georgian;
-            font-size: 0.925em;
+            font-size: 1.125em;
         }
     }
     .logo{
         width: 100%;
-        height: auto;
+        height: 100%;
         background-repeat: no-repeat;
         height: 8.25em;
         padding-top: 0.825em;
@@ -130,6 +130,7 @@
         border: none;
         border-radius: 0.563em;
         font-weight: 800;
+        font-size: 0.925em;
         width: 100%;
         padding: 0.702em;
         display: grid;
