@@ -21,6 +21,18 @@
     ul{
         cursor: pointer;
 
+        li{
+            display: flex;
+            justify-content: flex-start;
+            margin-left: 29px;
+            align-items: center;
+            list-style: georgian;
+            font-size: 1.125em;
+        }
+        li::before {
+            content: ' ★ '
+          }
+
         a{
         color: black;
         text-decoration: none;
@@ -123,7 +135,7 @@
     }
     .logo{
         width: 100%;
-        height: 3.998em;
+        height: 45px;
         background-repeat: no-repeat;
         height: 8.25em;
         padding-top: 0.825em;
@@ -170,9 +182,12 @@
         gap: 0.900em;
 
         li{
-            list-style: none;
+            list-style: georgian;
             font-size: 1.225em;
         }
+        li::before {
+            content: ' ★ '
+          }
     }
     .logo{
         width: 100%;
@@ -221,9 +236,12 @@
         gap: 1.900em;
 
         li{
-            list-style: none;
+            list-style: georgian;
             font-size: 1.999em;
         }
+        li::before {
+            content: ' ★ '
+          }
     }
     .logo{
         width: 100%;
