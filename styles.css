@@ -109,11 +109,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 0.900em;
+        gap: 0.700em;
 
         li{
             list-style: none;
-            font-size: 1.225em;
+            font-size: 0.725em;
         }
     }
     .logo{
